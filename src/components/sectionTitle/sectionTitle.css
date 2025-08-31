@@ -1,0 +1,24 @@
+.titleAnimate:hover {
+	animation: titleAnimate 0.7s linear 1;
+}
+
+@keyframes titleAnimate {
+	0% {
+		scale: 1 1;
+	}
+	20% {
+		scale: 1.4 1;
+	}
+	40% {
+		scale: 0.9 1;
+	}
+	60% {
+		scale: 1.1 1;
+	}
+	80% {
+		scale: 0.9 1;
+	}
+	100% {
+		scale: 1 1;
+	}
+}

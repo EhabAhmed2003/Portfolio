@@ -1,0 +1,81 @@
+{
+	"header": {
+		"title": "Portfolio",
+		"skills": "Skills",
+		"projects": "Projects",
+		"about": "About",
+		"contact": "Contact"
+	},
+	"hero": {
+		"title": "Frontend Developer",
+		"im": "i'm",
+		"name": "Ehab Ahmed,",
+		"description": "React Developer - Building modern, responsive and user-friendly web applications",
+		"projects": "Projects",
+		"view cv": "View Cv"
+	},
+	"skills": {
+		"title": "Skills",
+		"html": "HTML",
+		"css": "CSS3",
+		"javascript": "Javascript",
+		"react": "React",
+		"reactRouter": "React-Router",
+		"reduxToolkit": "Redux-Toolkit",
+		"tailwind": "Tailwind",
+		"shadcn": "Shadcn/UI",
+		"mui": "Material-UI",
+		"framerMotion": "Framer-Motion",
+		"i18n": "I18next",
+		"axios": "Axios",
+		"git": "Git",
+		"github": "Github"
+	},
+	"projects": {
+		"title": "projects",
+		"quran": {
+			"title": "Quran Plateform",
+			"description": "An interactive platform that allows users to read the Quran, listen to recitations, and explore chapters with ease."
+		},
+		"grocery": {
+			"title": "Grocery E-commerce",
+			"description": "A modern online store where users can browse, search, and shop for groceries with a simple and friendly interface."
+		},
+		"movies": {
+			"title": "Movies Website",
+			"description": "A stylish website to explore popular and trending movies, view details, and enjoy a smooth browsing experience."
+		},
+		"buttons": {
+			"live": "Live",
+			"github": "Github"
+		}
+	},
+	"about": {
+		"title": "ABOUT ME",
+		"description": "I’m a Frontend Developer focused on building modern, responsive, and user-friendly web applications. I enjoy turning complex problems into simple, elegant solutions. Always eager to learn new technologies and collaborate with others to create impactful digital experiences."
+	},
+	"contact": {
+		"title": "CONTACT",
+		"email": "eltorky.456@yahoo.com",
+		"phone": "+20 102 965 9428",
+		"location": "El-Monofia, Egypt",
+		"form": {
+			"name": "Your Name",
+			"email": "Your Email",
+			"message": "Your Message",
+			"sendMessage": "Send Message"
+		}
+	},
+	"footer": {
+		"title": "Portfolio",
+		"skills": "Skills",
+		"projects": "Projects",
+		"about": "About",
+		"contact": "Contact",
+		"message": "Ehab-Ahmed. All rights reserved."
+	},
+	"languages": {
+		"arabic": "Arabic",
+		"english": "English"
+	}
+}
