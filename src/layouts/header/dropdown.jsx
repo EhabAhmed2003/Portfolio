@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 
 const Dropdown = () => {
 	const { showDropdown, isFixedHeader } = useSelector((state) => state.header);
+
 	const { t } = useTranslation();
 	return (
 		<AnimatePresence mode="wait">
@@ -25,7 +26,7 @@ const Dropdown = () => {
 								<li
 									key={val.id}
 									onClick={() => scrollTo(val.pathTo)}
-									className="text-sm px-4 py-2 rounded hover:bg-primary list-none hover:cursor-pointer hover:text-white"
+									className={`text-sm px-4 py-2 rounded hover:bg-primary list-none hover:cursor-pointer hover:text-white`}
 								>
 									{t(`header.${val.value}`)}
 								</li>

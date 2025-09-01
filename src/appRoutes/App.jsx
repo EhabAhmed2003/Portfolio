@@ -53,6 +53,7 @@ function App() {
 		addEventListener("scroll", handleScroll);
 		return () => removeEventListener("scroll", handleScroll);
 	}, [scrollY, dispatch]);
+
 	return (
 		<div
 			dir={i18n.language === "ar" ? "rtl" : "ltr"}
